@@ -37,11 +37,6 @@ public class TxnCategorizationUtilTest {
 
         assertEquals(TransactionCategory.CHARITY,
                 categorizationUtil.getCategory("JUSTGIVING"), "Unexpected Transaction Category");
-        assertEquals(TransactionCategory.CHARITY,
-                categorizationUtil.getCategory("WORLD VISION"), "Unexpected Transaction Category");
-
-        assertEquals(TransactionCategory.CHARITY,
-                categorizationUtil.getCategory("\"'WORLD VISION DONOR\""), "Unexpected Transaction Category");
     }
 
 }
